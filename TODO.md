@@ -6,21 +6,20 @@ Project Description
 
 ### Todo
 
-- [ ] Make navbar persistent  
-- [ ] Make a commit to GitHub  
 - [ ] Center and reduce card widths  
 - [ ] Create project videos  
-- [ ] Bring in my nice picture  
-- [ ] Properly center and position navbar  
-- [ ] Make cool logos for bullet poitns  
-- [ ] Insert IT certs and degrees?  
+- [ ] Set and switch active link
 
 ### In Progress
 
-- [ ] Insert icons & links to social media  
-- [ ] Insert Font Awesome  
-- [ ] Write an About Me  
-
 ### Done ✓
 
-
+- [x] Make cool logos for bullet poitns  
+- [x] Bring in my nice picture  
+- [x] Properly center and position navbar  
+- [x] Make navbar persistent  
+- [x] Insert IT certs and degrees?  
+- [x] Insert Font Awesome  
+- [x] Make a commit to GitHub  
+- [x] Write an About Me  
+- [x] Insert icons & links to social media  
