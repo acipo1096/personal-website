@@ -37,10 +37,10 @@ body {
 }
 
 
-/* .card-image {
-    height: 100%;
-    width: 100%;
-} */
+.card-image {
+    height: 206px;
+    width: 115px;
+}
 
 .footer{
     height: 75px;
