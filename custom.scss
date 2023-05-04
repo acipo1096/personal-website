@@ -3,47 +3,13 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "functions"; // required
-@import "variables"; // required to get $orange variable - from site
+$primary: #6e8293;
+
+
+@import "../PW/node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-// Required
-@import "../node_modules/bootstrap/scss/functions";
-
-// Default variable overrides
-$body-bg: #000;
-$body-color: #111;
-
-// Required
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
-// Optional Bootstrap components here
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-// etc
-
-$primary: #6e8293;
-
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
-
-// RGB = 111, 130, 147 
-// #6e8293
-
-
-// merge with existing $theme-colors map
-$theme-colors: map-merge($theme-colors, (
-  "primary": $primary
-));
+// $theme-colors: (
+//   "primary": $primary,
+// );
