@@ -17,11 +17,11 @@ body {
 
 .navbar-nav .active {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar-nav > .nav-item > a:hover {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #intro {
@@ -31,3 +31,27 @@ body {
 #about {
     padding-top: 5rem;
 }
+
+#my-work {
+    padding-top: 5rem;
+}
+
+
+/* .card-image {
+    height: 100%;
+    width: 100%;
+} */
+
+.footer{
+    height: 75px;
+}
+
+#footer-text {
+    margin: auto;
+}
+
+/* @media (max-width: 390px) {
+    .navbar-collapse {
+        background-color: red;
+    }
+*/
