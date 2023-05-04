@@ -6,7 +6,7 @@ Project Description
 
 ### Todo
 
-- [ ] Create project video   
+- [ ] Create project video & add to GitHub
 - [ ] Make cards look nice
 - [ ] Change bg-primary to Kellenberg blue background using SASS
 - [ ] SASS media queries - keep making mobile-friendly (i.e. navbar dropdown)
