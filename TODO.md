@@ -8,8 +8,6 @@ Project Description
 
 - [ ] Create project video & add to GitHub
 - [ ] Make cards look nice
-- [ ] Change bg-primary to Kellenberg blue background using SASS
-- [ ] SASS media queries - keep making mobile-friendly (i.e. navbar dropdown)
 
 ### In Progress
 
@@ -29,3 +27,4 @@ Project Description
 - [x] Fixed active link issue where, if my name was clicked, another active link would still be designated
 - [x] Create footer  
 - [x] Fix "My Cool Drum Machine" text  
+- [x] Change bg-primary to Kellenberg blue background using SASS
