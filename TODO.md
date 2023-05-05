@@ -30,3 +30,4 @@ Project Description
 - [x] Change bg-primary to Kellenberg blue background using SASS
 - [x] Create project video & add to YouTube
 - [x] Make cards look nice
+- [x] Fixed Git email
