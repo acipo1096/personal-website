@@ -6,7 +6,6 @@ Project Description
 
 ### Todo
 
-- [ ] Create project video & add to GitHub
 - [ ] Make cards look nice
 
 ### In Progress
@@ -28,3 +27,4 @@ Project Description
 - [x] Create footer  
 - [x] Fix "My Cool Drum Machine" text  
 - [x] Change bg-primary to Kellenberg blue background using SASS
+- [x] Create project video & add to GitHub
