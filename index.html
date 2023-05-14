@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="custom.css">
+    <title>Alex Cipollone</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-primary">
+        <div class="container-fluid">
+            <a href="#" id="home" class="navbar-brand ps-5 text-white">Alexander J. Cipollone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+              </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapseNavbar">
+                <ul class="navbar-nav pe-5">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-white" id="about-link" onclick="changeActiveLink()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#my-work" class="nav-link text-white" id="my-work-link" onclick="changeActiveLink()">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-white" id="contact-link" onclick="changeActiveLink()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="intro" class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/alexcipollone.jpeg" alt="Alex Cipollone smiling">
+            </div>
+            <div class="col">
+                <h1>My Favorite Quote:</h1>
+                <blockquote>"...it ain’t about how hard you hit. It’s about how hard you can get hit and keep moving forward." <em> -Rocky Balboa</em></blockquote>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container">
+        <h1>About Me</h1>
+        <p>When I was younger, I had no idea that I would one day be interested in computers. 
+            I knew that, when I didn't know how to do something, I would spend hours trying to research a solution. 
+            I knew that I loved going to Micro Center, even though I barely knew what anything did. 
+            I knew that my favorite tasks as a church Administrative Assistant were anything computer-related: figuring out how to connect a switch, working with the church database, and eventually learning to help update the parish website.
+            In college, I took at least three career/major quizzes, and I eventually settled on management. A career in IT wasn't even a thought. It wasn't until I took the initiative and completed Rockport that I began to connect the dots: I was actually really interested in computers. I was taking some Java programming and intro IT courses at the time, which further solidifed my interest.</p>
+            
+            <p>After graduating college, I decided to take a gap year to work full-time and see if this career was right for me. I was very lucky to get a job at a high school's Help Desk, which gave me my first real deep-dive into the world of computing and inspired me to go back for my Masters. After a failed first semester in Computer Science, I grew discouraged. 
+            I ended up switch my degree program - but I never lost my interest in coding. I began to try again - but this time, I would learn on my own. I love the challenges that coding provides: the spark of excitement when you come up with a project idea, the countless hours spent mulling over a simple problem, the drive to go back to work when you walk away in frustration, and the pure joy you feel when your work is complete.</p>
+        <p>I am proficient in several web programming technologies, including:
+        <h2>Programming Languages</h2>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>HTML</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>CSS</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>JavaScript</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Python</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Java</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>SQL</li>
+        </ul>
+        <h2>Frameworks/Libraries</h2>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Bootstrap</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>React</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>jQuery</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>pandas</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Django</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Flask</li>
+        </ul>
+        <h2>Degrees & Certifications</h2>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Master of Science in Information Systems, Hofstra University, 2021</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Bachelor of Science in Administrative Studies, St. John's University, 2018</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>freeCodeCamp Responsive Web Design</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>freeCodeCamp JavaScript Algorithms and Data Structures</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>freeCodeCamp Front End Development Libraries</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>CompTIA A+</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>CompTIA Network+</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>CompTIA Security+</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>CompTIA PenTest+</li>
+            <li><span class="fa-li"><i class="fa-solid fa-laptop-code"></i></span>Cisco CCNA</li>
+        </ul>
+    </div>
+    <div id="my-work" class="container">
+        <h1>My Work</h1>
+        <div class="row">
+            <div id="project-one" class="d-flex justify-content-center col-4">
+                <div class="card w-50 m-3">
+                    <img class="card-image-top" src="/song_randomizer.png" alt="Song Randomizer image">
+                    <div class="card-body">
+                        <h5 class="card-title">Song Randomizer</h5>
+                        <p class="card-text">A guitarist's solution for knowing too many songs...</p>
+                        <a href="https://youtu.be/KPIaYlSfuLY" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Click here for a video demo!</button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="project-two" class="d-flex justify-content-center col-4">
+                <div class="card w-50 m-3">
+                    <img class="card-image-top" src="/pomodoro.png" alt="Pomordoro Clock image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">25 + 5 Clock</h5>
+                        <div class="card-text text-center">The Pomodoro Technique is a time management method used to break work into intervals.</div>
+                        <a href="https://255-clock.alexcipollone.repl.co/" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Try it for yourself!</button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="project-three" class="d-flex justify-content-center col-4">
+                <div class="card w-50 m-3">
+                    <img class="card-image-top" src="/drum_machine.png" alt="Drum Machine image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Drum Machine</h5>
+                        <div class="card-text text-center">Lay down some cool beats using this drum machine!</div>
+                        <a href="https://codepen.io/2facecoder/pen/BarRdrd" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Try it for yourself!</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container">
+        <h1>Contact Me!</h1>
+        <p><span><i class="fa-brands fa-github"></i> </span><a href="https://github.com/acipo1096" target="_blank">GitHub</a></p>
+        <p><span><i class="fa-brands fa-linkedin"></i> </span><a href="https://linkedin.com/me/alexcipollone96" target="_blank">LinkedIn</a></p>
+        <p><span><i class="fa-brands fa-free-code-camp"></i> </span><a href="https://www.freecodecamp.org/alexcip16" target="_blank">freeCodeCamp</a></p>
+    </div>
+    <footer class="footer bg-primary">
+        <div class="container h-100 d-flex align-items-center">
+            <p id="footer-text" class="text-center text-white d-flex justify-content-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Alexander J. Cipollone</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- <i class="fa-solid fa-display-code"></i> -->
