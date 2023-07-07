@@ -32,8 +32,26 @@ body {
     padding-top: 5rem;
 }
 
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact p {
+    font-size: 22px;
+    padding: 10px;
+}
+
+#contact a{
+    text-decoration: none;
+}
+
 #my-work {
     padding-top: 5rem;
+}
+
+.carousel-item img{
+    opacity: .40;
 }
 
 .card-image-top {

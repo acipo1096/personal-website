@@ -33,9 +33,38 @@
         </div>
     </nav>
     <div id="work" class="container">
-        <h1>My Work</h1>
+        <h1>Featured Projects</h1>
+
+        <!-- CAROUSEL - FP -->
+        <div id="featured" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://youtu.be/KPIaYlSfuLY" target="_blank">
+                        <img class="d-block w-100" src="/images/song_randomizer.png" alt="Song Randomizer image">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="text-dark">Song Randomizer</h5>
+                            <p class="text-dark">A guitarist's solution for knowing over 500 songs...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/pomodoro.png" alt="Broadway image">
+                </div>
+            </div>
+            <button class="carousel-control-prev" role="button" data-bs-target="#featured" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" role="button" data-bs-target="#featured" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- FCC HTML -->
+
         <div class="row">
-            <h2>Featured Projects</h2>
+            <h2>HTML/CSS Projects</h2>
             <div id="project-one" class="d-flex justify-content-center col-4">
                 <div class="card w-50 m-3">
                     <img class="card-image-top" src="/song_randomizer.png" alt="Song Randomizer image">
@@ -68,28 +97,17 @@
             </div>
         </div>
         <div class="row">
-            <h2>HTML/CSS Projects</h2>
-            <div id="project-one" class="d-flex justify-content-center col-4">
+            <div id="project-three" class="d-flex justify-content-center col-6">
                 <div class="card w-50 m-3">
-                    <img class="card-image-top" src="/song_randomizer.png" alt="Song Randomizer image">
+                    <img class="card-image-top" src="/drum_machine.png" alt="Drum Machine image">
                     <div class="card-body">
-                        <h5 class="card-title">Song Randomizer</h5>
-                        <p class="card-text">A guitarist's solution for knowing too many songs...</p>
-                        <a href="https://youtu.be/KPIaYlSfuLY" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Click here for a video demo!</button></a>
+                        <h5 class="card-title text-center">Drum Machine</h5>
+                        <div class="card-text text-center">Lay down some cool beats using this drum machine!</div>
+                        <a href="https://codepen.io/2facecoder/pen/BarRdrd" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Try it for yourself!</button></a>
                     </div>
                 </div>
             </div>
-            <div id="project-two" class="d-flex justify-content-center col-4">
-                <div class="card w-50 m-3">
-                    <img class="card-image-top" src="/pomodoro.png" alt="Pomordoro Clock image">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">25 + 5 Clock</h5>
-                        <div class="card-text text-center">The Pomodoro Technique is a time management method used to break work into intervals.</div>
-                        <a href="https://255-clock.alexcipollone.repl.co/" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Try it for yourself!</button></a>
-                    </div>
-                </div>
-            </div>
-            <div id="project-three" class="d-flex justify-content-center col-4">
+            <div id="project-three" class="d-flex justify-content-center col-6">
                 <div class="card w-50 m-3">
                     <img class="card-image-top" src="/drum_machine.png" alt="Drum Machine image">
                     <div class="card-body">
@@ -179,4 +197,28 @@
 </body>
 </html>
 
-<!-- <i class="fa-solid fa-display-code"></i> -->
+  <!-- Cards - Featured Projects -->
+
+        <!-- <div class="row">
+            <h2>Featured Projects</h2>
+            <div id="project-one" class="d-flex justify-content-center col-6">
+                <div class="card w-50 m-3">
+                    <img class="card-image-top" src="/song_randomizer.png" alt="Song Randomizer image">
+                    <div class="card-body">
+                        <h5 class="card-title">Song Randomizer</h5>
+                        <p class="card-text">A guitarist's solution for knowing too many songs...</p>
+                        <a href="https://youtu.be/KPIaYlSfuLY" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Click here for a video demo!</button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="project-two" class="d-flex justify-content-center col-6">
+                <div class="card w-50 m-3">
+                    <img class="card-image-top" src="" alt="Broadway Rankings">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Broadway Show Rankings</h5>
+                        <div class="card-text text-center">When you let the computer rank the shows you've seen for you.</div>
+                        <a href="https://255-clock.alexcipollone.repl.co/" target="_blank"><button type="button" class="btn btn-primary text-white d-flex justify-content-center m-2">Try it for yourself!</button></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
