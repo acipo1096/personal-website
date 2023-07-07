@@ -1,0 +1,57 @@
+body {
+    /* This prevents the navbar from cutting off the top of the page */
+    padding-top: 4.5rem;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-nav .active {
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-nav > .nav-item > a:hover {
+    font-weight: 700;
+}
+
+#intro {
+    padding-top: 5rem;
+}
+
+#about {
+    padding-top: 5rem;
+}
+
+#my-work {
+    padding-top: 5rem;
+}
+
+
+.card-image {
+    height: 206px;
+    width: 115px;
+}
+
+.footer{
+    height: 75px;
+}
+
+#footer-text {
+    margin: auto;
+}
+
+/* @media (max-width: 390px) {
+    .navbar-collapse {
+        background-color: red;
+    }
+*/
