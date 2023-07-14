@@ -3,6 +3,7 @@ body {
     padding-top: 4.5rem;
 }
 
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -36,8 +37,13 @@ body {
     background-color: black;
 }
 
+.carousel-item {
+    height: 400px;
+}
+
 #intro {
     padding-top: 5rem;
+    height: 84.10vh;
 }
 
 #about {
