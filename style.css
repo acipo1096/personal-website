@@ -24,6 +24,18 @@ body {
     font-weight: 700;
 }
 
+.carousel-caption {
+    background-color: rgba(224, 212, 212, 0.3);
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
 #intro {
     padding-top: 5rem;
 }
