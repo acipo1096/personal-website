@@ -3,6 +3,34 @@ body {
     padding-top: 4.5rem;
 }
 
+#photo {
+    animation-duration: 2s;
+    animation-name: slide-left;
+    animation-direction: alternate;
+}
+
+#index-right {
+    animation-duration: 2s;
+    animation-name: fade-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
 
 .fixed-top {
     position: fixed;
@@ -43,6 +71,7 @@ body {
 
 #intro {
     padding-top: 5rem;
+    padding-bottom: 2.55rem;
 }
 
 #about {
