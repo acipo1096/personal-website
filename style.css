@@ -70,7 +70,7 @@ body {
 }
 
 #intro {
-   padding-top: 3rem;
+    padding-top: 3rem;
     padding-bottom: 2.55rem;
 }
 
@@ -132,6 +132,32 @@ body {
 
 @media (max-width: 390px) {
     #contact p{
-        font-size:20px;
+        font-size: 20px;
     }
+
+    #intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .intro-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    blockquote {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2%;
+    }
+
+
 }
