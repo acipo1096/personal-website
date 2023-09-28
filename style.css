@@ -141,10 +141,10 @@ body {
     margin: auto;
 }
 
-@media (max-width: 390px) {
-    #contact p{
+@media (max-width: 1000px) {
+    /* #contact p{
         font-size: 20px;
-    }
+    } */
 
     #intro {
         display: flex;
@@ -165,9 +165,15 @@ body {
 
     #contact {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-left: 2%;
+        margin-bottom: 40px;
+    }
+
+    #contact a{
+        font-size: 12px;
     }
 
 
