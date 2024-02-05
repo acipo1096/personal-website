@@ -2,4 +2,4 @@
 
 ## Description
 
-Personal website hosted on AWS: (https://alexcipollone.net)
+Personal website hosted on AWS: (http://alexcipollone.net)
