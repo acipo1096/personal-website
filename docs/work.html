@@ -5,308 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="/personal-website/style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/personal-website/custom.css">
+    <link rel="stylesheet" href="/custom.css">
     <title>Alex Cipollone</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm fixed-top bg-primary">
         <div class="container-fluid">
-            <a href="/personal-website/docs/index.html" id="home" class="navbar-brand ps-5 text-white">Alexander J. Cipollone</a>
+            <a href="/docs/index.html" id="home" class="navbar-brand ps-5 text-white">Alexander J. Cipollone</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars"></i></span>
               </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapseNavbar">
                 <ul class="navbar-nav pe-5">
                     <li class="nav-item">
-                        <a href="/personal-website/docs/index" class="nav-link text-white" id="about-link">Home</a>
+                        <a href="/docs/index.html" class="nav-link text-white" id="about-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/personal-website/docs/about" class="nav-link text-white" id="about-link">About</a>
+                        <a href="/docs/about.html" class="nav-link text-white" id="about-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/personal-website/docs/work" class="nav-link text-white active" id="work-link">My Work</a>
+                        <a href="/docs/work.html" class="nav-link text-white active" id="work-link">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/personal-website/docs/education" class="nav-link text-white" id="education-link">Education</a>
+                        <a href="/docs/education.html" class="nav-link text-white" id="education-link">Education</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div id="work" class="container">
-    <br>
-    <br>
 
         <!-- CAROUSEL - FP -->
-        <h1>Featured Original Projects</h1>
-        <div id="featured" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://youtu.be/FjLgVD7u3co" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/personal_projects/song-requests.jpg" alt="Song requests image" width="90%" height="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Song Requests</h5>
-                            <p class="text-dark">Combines music and tech to create a new, interactive experience for live shows</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://youtu.be/iqWX4EQsjdk" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/personal_projects/song-randomizer.jpg" alt="Song Randomizer image">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Song Randomizer</h5>
-                            <p class="text-dark">A guitarist's solution for knowing over 500 songs...</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://www.youtube.com/watch?v=Lwzxi3RoVZc" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/personal_projects/broadway.png" alt="Broadway image">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Broadway Rankings</h5>
-                            <p class="text-dark">How I solved the problem of ranking Broadway shows</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <button class="carousel-control-prev" role="button" data-bs-target="#featured" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" role="button" data-bs-target="#featured" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        <h1>Web Development Projects</h1>
 
-        <br>
-        <br>
+        <!-- Featured Projects -->
+         <ul>
+            <li>Song Requests - Combines music and tech to create a new, interactive experience for live shows</li>
+            <li>Song Randomizer - A guitarist's solution for knowing over 500 songs...</li>
+            <li>Broadway Ranking - How I solved the problem of ranking Broadway shows</li>
+         </ul>
 
-        <!-- FCC Responsive -->
-        <h2>Responsive Web Design Projects</h2>
-        <div id="responsive" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div id="tribute" class="carousel-item active">
-                    <a href="https://codepen.io/2facecoder/pen/xxXjeoJ" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_responsive/fcc-tribute-page.png" alt="George Harrison tribute">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Tribute Page</h5>
-                            <p class="text-dark">A short tribute to a great musician</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="survey" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/poWVNBQ" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_responsive/fcc-survey-form.png" alt="Survey form">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Survey Form</h5>
-                            <p class="text-dark">Survey form built with HTML & CSS</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="technical-doc" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/xxzmXpP" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_responsive/fcc-technical-documentation.png" alt="Tecnical documentation">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Technical Documentation Page</h5>
-                            <p class="text-dark">Intro to the Python programming language</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="product-landing" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/OJwLbwN" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_responsive/fcc-product-landing.png" alt="Product landing page">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Product Landing Page</h5>
-                            <p class="text-dark">Product landing page for guitarists</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="fcc-portfolio" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/KKBzJjJ" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_responsive/fcc-portfolio.png" alt="First portfolio attempt">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">FCC Portfolio</h5>
-                            <p class="text-dark">My first attempt at building a portfolio webpage</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <button class="carousel-control-prev" role="button" data-bs-target="#responsive" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" role="button" data-bs-target="#responsive" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        
-        <br>
-        <br>
+         <!-- freeCodeCamp Relational Databases -->
+          <h2>freeCodeCamp Relational Databases</h2>
+          <ul>
+            <li>Celestial Bodies Database</li>
+            <li>World Cup Database</li>
+            <li>Salon Appointment Scheduler</li>
+            <li>Periodic Table Database</li>
+            <li>Number Guessing Game</li>
+          </ul>
 
-        <!-- FCC JavaScript DSA-->
-        <h2>JavaScript Data Structures & Algorithms</h2>
-        <div id="js-responsive" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div id="palindrome" class="carousel-item active">
-                    <a href="https://codepen.io/2facecoder/pen/xxQYQME" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_js_dsa/fcc-palindrome.png" alt="Palindrome checker">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Palindrome Checker</h5>
-                            <p class="text-dark">Find out if a word or phrase is the same in reverse!</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="roman" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/ExOQOMK" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_js_dsa/fcc-roman.png" alt="Roman numerals">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Roman Numeral Converter</h5>
-                            <p class="text-dark">Converts numbers to Roman numerals</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="caesar" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/PoxQxLa" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_js_dsa/fcc-caesar.png" alt="Caesar">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Caesar's Cipher</h5>
-                            <p class="text-dark">Convert words and phrases using ROT13</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="telephone" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/xxQYQNR" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_js_dsa/fcc-telephone.png" alt="Telephone number validator">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Telephone Number Validator</h5>
-                            <p class="text-dark">Verify if a phone number is in the correct format</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="cash" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/rNQJQEO" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_js_dsa/fcc-cash-register.png" alt="Cash register">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Cash Register</h5>
-                            <p class="text-dark">Pay money and get change back</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <button class="carousel-control-prev" role="button" data-bs-target="#js-responsive" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" role="button" data-bs-target="#js-responsive" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-        <br>
-        <br>
+         <!-- freeCodeCamp Back End Development and APIs -->
+          <h2>freeCodeCamp Back End Development and APIs</h2>
+          <ul>
+            <li>Timestamp Microservice</li>
+            <li>Request Header Parser Microservice</li>
+            <li>URL Shortener Microservice</li>
+            <li>Exercise Tracker</li>
+            <li>File Metadata Microservice</li>
+          </ul>
 
-        <!-- FCC Front End Development -->
-        <h2>Front End Development Libraries</h2>
-        <div id="fe-responsive" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div id="random-quote" class="carousel-item active">
-                    <a href="https://codepen.io/2facecoder/pen/ZExKJbo" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_front_end/fcc-random-quote-generator.png" alt="Random quote generator">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Random Quote Generator</h5>
-                            <p class="text-dark">Get inspired by this random quote generator</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="markdown" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/poLPraK" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_front_end/fcc-markdown-previewer.png" alt="Markdown previwer">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Markdown Previewer</h5>
-                            <p class="text-dark">Converts Markdown to HTML</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="drum-machine" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/BarRdrd" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_front_end/fcc-drum-machine.png" alt="drum machine">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">Drum Machine</h5>
-                            <p class="text-dark">Lay down some beats with this drum machine</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="javascript-calculator" class="carousel-item">
-                    <a href="https://codepen.io/2facecoder/pen/xxWdLWv" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_front_end/fcc-javascript-calculator.png" alt="JavaScript Calculator">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">JavaScript Calculator</h5>
-                            <p class="text-dark">A simple, online calculator</p>
-                        </div>
-                    </a>
-                </div>
-                <div id="pomodoro-clock" class="carousel-item">
-                    <a href="https://255-clock.alexcipollone.repl.co/" target="_blank">
-                        <img class="d-block w-100" src="/personal-website/images/fcc_front_end/fcc-pomodoro.png" alt="25 + 5 Clock">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-dark">React 25 + 5 Clock</h5>
-                            <p class="text-dark">Use this clock to better manage your time.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <button class="carousel-control-prev" role="button" data-bs-target="#fe-responsive" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" role="button" data-bs-target="#fe-responsive" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+         <!-- freeCodeCamp Front End Libraries -->
+          <h2>freeCodeCamp Front End Libraries</h2>
+          <ul>
+            <li>Random Quote Generator - Get inspired by this random quote generator</li>
+            <li>Previewer - Converts Markdown to HTML</li>
+            <li>Drum Machine - Lay down some beats with this drum machine</li>
+            <li>JavaScript Calculator - A simple, online calculator</li>
+            <li>React 25 + 5 Clock - Use this clock to better manage your time.</li>
+          </ul>
+         
+         <!-- freeCodeCamp JavaScript DSA -->
+          <h2>freeCodeCamp JavaScript Data Structures & Algorithms</h2>
+          <ul>
+            <li>Palindrome Checker - Find out if a word or phrase is the same in reverse!</li>
+            <li>Roman Numeral Converter - Converts numbers to Roman numerals</li>
+            <li>Caesar's Cipher - Convert words and phrases using ROT13</li>
+            <li>Telephone Number Validator - Verify if a phone number is in the correct format</li>
+            <li>Cash Register - Pay money and get change back</li>
+          </ul>
 
-        <br>
-        <br>
-
-         <!-- FCC Scientific Computing with Python -->
-         <h2>Scientific Computing with Python</h2>
-         <div id="scp-responsive" class="carousel slide" data-bs-ride="carousel">
-             <div class="carousel-inner">
-                 <div id="arithmatic-formatter" class="carousel-item active">
-                     <a href="https://replit.com/@AlexCipollone/boilerplate-arithmetic-formatter#arithmetic_arranger.py" target="_blank">
-                         <img class="d-block w-100" src="/personal-website/images/fcc_python/fcc-arithmatic-formatter.png" alt="Arithmatic formatter">
-                         <div class="carousel-caption d-none d-md-block">
-                             <h5 class="text-dark">Arithmatic Formatter</h5>
-                             <p class="text-dark">Takes an input of arithmatic operations and formats them vertically</p>
-                         </div>
-                     </a>
-                 </div>
-                 <div id="time-calculator" class="carousel-item">
-                     <a href="https://replit.com/@AlexCipollone/boilerplate-time-calculator#time_calculator.py" target="_blank">
-                         <img class="d-block w-100" src="/personal-website/images/fcc_python/fcc-time-calculator.png" alt="Time calculator">
-                         <div class="carousel-caption d-none d-md-block">
-                             <h5 class="text-dark">Time Calculator</h5>
-                             <p class="text-dark">Enter a time; returns the specified time in the future</p>
-                         </div>
-                     </a>
-                 </div>
-             </div>
-             <button class="carousel-control-prev" role="button" data-bs-target="#scp-responsive" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Previous</span>
-             </button>
-             <button class="carousel-control-next" role="button" data-bs-target="#scp-responsive" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Next</span>
-             </button>
-         </div>
-
-    </div>
+         <!-- freeCodeCamp Responsive Web Design Projects -->
+          <h2>freeCodeCamp Responsive Web Design</h2>
+          <ul>
+            <li>Tribute Page - A short tribute to a great musician</li>
+            <li>Survey Form - Survey form built with HTML & CSS</li>
+            <li>Technical Documentation Page - Intro to the Python programming language</li>
+            <li>Product Landing Page - Product landing page for guitarists</li>
+            <li>Portfolio - My first attempt at building a portfolio webpage</li>
+          </ul>
+   
     
     <footer class="footer bg-primary">
         <div class="container h-100 d-flex align-items-center">
