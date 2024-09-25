@@ -178,3 +178,7 @@ body {
 
 
 }
+
+.project-links a {
+    text-decoration: none;
+}
