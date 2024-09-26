@@ -182,3 +182,7 @@ body {
 .project-links a {
     text-decoration: none;
 }
+
+i.fa-solid.fa-guitar {
+    color: white;
+}
