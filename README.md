@@ -2,7 +2,6 @@
 
 ## Description
 
-<<<<<<< HEAD
 Personal portfolio website describing my skills and education. Also features some projects I've coded through freeCodeCamp certifications and my own independent work.
 
 ## History/Motivation
@@ -16,10 +15,3 @@ In August 2024, I switched hosting my website from AWS to GitHub Pages.
 ## Future Plans/Things I Want to Improve
 
 - From my own observation and feedback from others, I know my site is simple and well-organized, but bland. I want to figure out a way to make the site more visually appealing.
-- I'd also like to refactor the "My Work" page, as I'm no longer a fan of the carousels.
-- Since I still have access to a domain, I want to figure out how to replace the standard GitHub Pages URL for my custom domain name
-=======
-A personal website containing my education, skills, and featured projects.
-
-**Website is currently offline. The AWS bucket hosting the site is no longer available. Looking for alternative methods to host.**
->>>>>>> feat/redo-work-page
